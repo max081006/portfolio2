@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+   
+}
+
+a {
+    text-decoration: none;
+    color: none;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+
+    background: url(bg4.jpg) no-repeat, linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0));
+    background-size: cover;
+
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+    transition: 0.2s;
+}
+
+.logo:hover {
+    color: steelblue
+}
+
+.menu {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 100px;
+}
+
+.menu li {
+    font-size: 23px;
+
+}
+
+.menu li a {
+    color: white;
+}
+
+menu a li {
+    transition: 0.2s;
+}
+
+.menu li a:hover {
+    color: steelblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.intro {
+    width: 900px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+.intro h3 {
+    text-align: center;
+    font-size: 70px;
+
+}
+
+.intro h5 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.intro h4 {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro button {
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+    display: block;
+    color: white;
+
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: transparent;
+    border: 2px solid white
+}
+
+.intro button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+
+
+}
+
+.about h5 {
+
+    color: black;
+    font-size: 30px;
+
+
+}
+
+.about h1 {
+
+    font-size: 50;
+    margin-bottom: 20px;
+
+}
+
+.about-contents {
+
+    height: 600px;
+    display: flex;
+
+
+}
+
+.about-contents .left {
+
+    width: 600px;
+    height: 600px;
+
+}
+
+.about-contents .right {
+    width: 600px;
+    height: 600px;
+
+    padding: 10px;
+}
+
+.about img {
+    width: 600px;
+    height: 400px;
+
+    transition: 0.3s;
+    border-radius: 30px
+}
+
+.about-contents .right h3 {
+
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+
+}
+
+.about-contents .right li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about img:hover {
+    opacity: 0.8;
+}
+
+.skills {
+    height: 800px;
+    background-color: #eee;
+
+    margin-top: 200px;
+    padding-top: 100px;
+
+}
+
+.skills-inner {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+.skills h5 {
+    color: black;
+    font-size: 30px;
+
+}
+
+.skills h1 {
+    font-size: 50;
+    margin-bottom: 20px;
+
+}
+
+.skills-contents {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-contents .box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    transition: 0.3s;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.skills-contents .box:hover {
+    background-color: #ff6a6a;
+    color: white;
+    transition: 0.3s
+}
+
+.skills h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.skills p {
+    font-size: 18px;
+
+}
+
+.bg2 {
+
+    height: 700px;
+    background: url(s6.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.contact {
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 150px;
+    
+  
+
+
+}
+
+.contact h5 {
+
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.contact h1 {
+    font-size: 50;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.contact .contents {
+    width: 1200px;
+    height: 600px;
+
+
+    display: flex;
+
+
+}
+
+.contact .contents .right {
+    width: 800px;
+    height: 600px;
+
+    border:1px solid black
+}
+
+.contact .contents .left {
+    width: 400px;
+    height: 600px;
+
+
+
+}
+
+.infor {
+    width: 300px;
+    height: 90px;
+
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 0 auto;
+
+    padding-left: 20px;
+    padding-top: 15px;
+
+    margin-bottom: 20px;
+}
+
+.infor h2 {
+    font-size: 20px;
+
+}
+
+.infor h6 {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+
+
+.btn-name, .btn-email{
+width: 90%;
+height: 25px;
+display: block;
+margin: 0 auto;
+border: 1px solid #ccc;
+border-radius: 7px;
+
+}
+
+.btn-message{
+    width: 90%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.contact .name,.contact .email,.contact .message{
+    margin-top: 50px;
+    padding-left: 40px;
+
+
+}
+
+.send{
+width: 90%;
+height: 25px;
+display: block;
+margin: 0 auto;
+border: none;
+border-radius: 7px;
+
+background-color: #ff6a6a;
+color: white;
+
+margin-top: 30px;
+}
